@@ -1,7 +1,11 @@
 /venv/
-*__pycache__*
 trip_analysis/temp_files/*
 !trip_analysis/temp_files/.gitkeep
 .cache
 .venv/
 .env
+__pycache__/
+*.pyc
+*.pyo
+# Ignore log files
+*.log
